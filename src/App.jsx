@@ -1,5 +1,7 @@
 import Home from "./components/Home";
 import { Navbar } from "./components/Navbar";
+import Sociallinks from "./components/Sociallinks";
+
 
 
 export default function App() {
@@ -7,6 +9,8 @@ export default function App() {
     <div>
       <Navbar/>
       <Home/>
+<Sociallinks/>
+      
     </div>
 
   )
