@@ -15,7 +15,7 @@ const Home = () => {
             designing softwear.
             Currently, I love to work on web application
             using technologies like
-            React, Next js, Tailwind CSS, Html. </p>
+            React, Next js, React Native, Tailwind CSS, Html. </p>
 
           <div>
             <button className=' group text-white w-fit px-6
