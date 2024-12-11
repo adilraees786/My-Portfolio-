@@ -1,7 +1,55 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin,IoIosMail } from "react-icons/fa";
 
  const Sociallinks = () => {
+
+const links=[
+  {
+    id: 1,
+    child:(
+      <>
+      linkedin <FaLinkedin size={30}/>
+      </>
+    ),
+    href: "https://www.linkedin.com/in/adil-raees-08436a2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    style: "rounded-tr-md"
+
+  },
+  {
+    id: 2,
+    child:(
+      <>
+      Github <FaGithub size={30}/>
+      </>
+    ),
+    href: "https://github.com/adilraees786",
+    style: "rounded-tr-md"
+
+  },
+  {
+    id: 3,
+    child:(
+      <>
+      Instagram <FaInstagram size={30}/>
+      </>
+    ),
+    href: "https://www.linkedin.com/in/adil-raees-08436a2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    style: "rounded-tr-md"
+
+  },
+  {
+    id: 4,
+    child:(
+      <>
+      Mail <IoIosMail size={30}/>
+      </>
+    ),
+    href: "https://www.linkedin.com/in/adil-raees-08436a2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    style: "rounded-tr-md"
+
+  },
+]
+
   return (
     <div className=' flex flex-col top-[35%] left-0 fixed'>
       <ul>
@@ -12,11 +60,10 @@ import { FaGithub, FaLinkedin, } from "react-icons/fa";
            href=""
            className=' flex justify-between items-center w-full text-white'
            >
-             <>
-             linkedin <FaLinkedin size={30}/>
-             </>
+            
              </a>
              </li>
+            
       </ul>
    
     </div>
