@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,IoIosMail } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
  const Sociallinks = () => {
 
@@ -33,21 +33,20 @@ const links=[
       Instagram <FaInstagram size={30}/>
       </>
     ),
-    href: "https://www.linkedin.com/in/adil-raees-08436a2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    href: "https://www.instagram.com/adii_hehe?igsh=MTFpYnNoaGV0enB5cg==",
     style: "rounded-tr-md"
 
   },
-  {
-    id: 4,
-    child:(
-      <>
-      Mail <IoIosMail size={30}/>
-      </>
-    ),
-    href: "mailto:adilraees911@gmail.com",
-    style: "rounded-tr-md"
-
-  },
+  // {
+  //   id: 4,
+  //   child: (
+  //     <>
+  //       Mail <IoIosMail size={30} />
+  //     </>
+  //   ),
+  //   href: "mailto:adilraees911@gmail.com",
+  //   style: "rounded-tr-md",
+  // },
   {
     id: 5,
     child:(
@@ -64,20 +63,24 @@ const links=[
   return (
     <div className=' flex flex-col top-[35%] left-0 fixed'>
       <ul>
-        {links.map((link) =>(
+        
+        {links.map(({ id, child, href, style }) => (
+  <li
+    key={id}
+    className={
+      'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 ' + " " +
+      style
+    }
+  >
+    <a
+      href={href}
+      className="flex justify-between items-center w-full text-white"
+    >
+      {child}
+    </a>
+  </li>
+))}
 
-<li key={} className=' flex justify-between items-center w-40 h-14
-px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300
-bg-gray-500'>
-  <a
-   href=""
-   className=' flex justify-between items-center w-full text-white'
-   >
-    
-     </a>
-     </li>
-
-        ))}
 
         
             
