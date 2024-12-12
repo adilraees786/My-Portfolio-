@@ -12,12 +12,12 @@ const About = () => {
           About
           </h1>
         </div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam necessitatibus expedita voluptate cum,
+        <p className=' text-xl mt-20'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam necessitatibus expedita voluptate cum,
            quia tenetur suscipit neque commodi? Quia et facilis soluta debitis iure! Cum omnis quaerat blanditiis odio
             esse optio consequatur asperiores fuga hic vel placeat eius saepe id quae, velit assumenda unde sit,
              obcaecati quasi eligendi ratione.</p>
              <br />
-             <p>
+             <p className='text-xl'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis magni perspiciatis expedita 
               autem reprehenderit quibusdam! Recusandae aspernatur id et est ipsa tempore iusto ratione nulla 
               consequatur numquam ullam assumenda quibusdam temporibus harum vel quasi magni obcaecati vitae,
