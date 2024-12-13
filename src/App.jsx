@@ -12,8 +12,9 @@ export default function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Sociallinks/>
       <Portfolio/>
-<Sociallinks/>
+
       
     </div>
 
