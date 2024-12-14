@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
- const Sociallinks = () => {
+ const SocialLinks = () => {
 
 const links=[
   {
@@ -90,4 +90,4 @@ const links=[
   )
 }
 
-export default Sociallinks;
+export default SocialLinks;
