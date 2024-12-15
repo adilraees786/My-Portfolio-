@@ -1,4 +1,5 @@
 import React from 'react'
+import ecommerce from '../assets/assets/ecommerce.png'
 
 const Portfolio = () => {
   return (
@@ -11,10 +12,11 @@ const Portfolio = () => {
           border-gray-500'>Portfolio</h1>
           <p className=' py-6'>Check out some of my work right here</p>
         </div>
-        <div>
+        <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8
+        px-12 sm:px-8 '>
 
-          <div>
-            <img src="" alt="" />
+          <div className=' shadow-md shadow-gray-600 rounded-lg '>
+            <img src={ecommerce} alt=""  className=' rounded-md duration-200 hover:scale-105 '/>
             <div>
               <button>Demo</button>
               <button>Code</button>
