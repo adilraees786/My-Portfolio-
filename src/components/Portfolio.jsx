@@ -6,8 +6,9 @@ const Portfolio = () => {
     w-full text-white md:h-screen'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col
       justify-center h-full w-full'>
-        <div>
-          <h1>Portfolio</h1>
+        <div className=' pb-8'>
+          <h1 className=' text-4xl font-bold inline border-b-4
+          border-gray-500'>Portfolio</h1>
           <p>Check out some of my work right here</p>
         </div>
         <div>
