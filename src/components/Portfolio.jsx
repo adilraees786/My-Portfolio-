@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className=' pb-8'>
           <h1 className=' text-4xl font-bold inline border-b-4
           border-gray-500'>Portfolio</h1>
-          <p>Check out some of my work right here</p>
+          <p className=' py-6'>Check out some of my work right here</p>
         </div>
         <div>
 
