@@ -17,7 +17,7 @@ const Portfolio = () => {
 
           <div className=' shadow-md shadow-gray-600 rounded-lg '>
             <img src={ecommerce} alt=""  className=' rounded-md duration-200 hover:scale-105 '/>
-            <div>
+            <div className='flex items-center justify-center'>
               <button>Demo</button>
               <button>Code</button>
             </div>
