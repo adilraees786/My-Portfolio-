@@ -15,8 +15,8 @@ export default function App() {
       <Home/>
       <About/>
       <SocialLinks/>
-      <Experience/>
       <Portfolio/>
+      <Experience/>
     </div>
 
   )
