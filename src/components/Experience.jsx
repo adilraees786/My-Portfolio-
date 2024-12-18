@@ -1,12 +1,12 @@
 import React from 'react'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import javascript from '../assets/ javascript.png'
-import ract from '../assets/react.png'
-import nextjs from '../assetsnextjsl.png'
-import tailwind from '../assets/tailwind.png'
-import github from '../assets/github.png'
-import node from '../assets/node.png'
+import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
+// import html from '../assets/assets/portfolio/html.png';
 
  const Experience = () => {
   return (
@@ -14,7 +14,16 @@ import node from '../assets/node.png'
       <div >
         <div>
           <h1 >Experience</h1>
+          <p>These are Technologies I have worked with</p>
+
         </div>
+<div>
+  <div>
+    <img src={html} alt="" />
+    <p>HTML</p>
+  </div>
+</div>
+
       </div>
       </div>
   )
