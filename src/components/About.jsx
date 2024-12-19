@@ -8,21 +8,22 @@ const About = () => {
       justify-center w-full h-full'>
         <div className='pb-8'>
           <h1 className=' text-4xl font-bold inline border-b-4 
-          border-gray-500'> 
-          About
+          border-gray-500'>
+            About
           </h1>
         </div>
-        <p className=' text-xl mt-20'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam necessitatibus expedita voluptate cum,
-           quia tenetur suscipit neque commodi? Quia et facilis soluta debitis iure! Cum omnis quaerat blanditiis odio
-            esse optio consequatur asperiores fuga hic vel placeat eius saepe id quae, velit assumenda unde sit,
-             obcaecati quasi eligendi ratione.</p>
-             <br />
-             <p className='text-xl'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis magni perspiciatis expedita 
-              autem reprehenderit quibusdam! Recusandae aspernatur id et est ipsa tempore iusto ratione nulla 
-              consequatur numquam ullam assumenda quibusdam temporibus harum vel quasi magni obcaecati vitae,
-               suscipit voluptate omnis dignissimos amet sapiente maxime. Et repellendus autem ullam at?
-             </p>
+        <p className=' text-xl mt-20'>I am a student at the University of FUUAST with a major in
+           Computer Science. As a skilled MERN Stack Developer with a solid foundation in React.js,
+            Next.js, React Native and Firebase, I specialize in crafting dynamic, responsive 
+            Web and App Applications that solve real-world problems. With experience in full-stack
+             development, I am passionate about delivering robust and scalable solutions.</p>
+        <br />
+        <p className='text-xl'>
+        Alongside my technical skills, I am actively engaged in social media activism, where I
+         blend my development expertise with community engagement to create impactful digital
+          platforms. I am committed to continuous learning and currently advancing my skills
+           in JavaScript frameworks and modern web technologies.
+        </p>
       </div>
     </div>
   )
