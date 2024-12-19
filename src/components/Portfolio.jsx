@@ -22,7 +22,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: onlinestore,
-      demoLink: "https://example.com/onlinestore",
+      demoLink: "https://adilraees786.github.io/E-commerce-website.js/",
     },
     {
       id: 4,
@@ -32,7 +32,7 @@ const Portfolio = () => {
     {
       id: 5,
       src: budgetapp,
-      demoLink: "https://example.com/budgetapp",
+      demoLink: "https://adilraees786.github.io/Budget-Expensive-Cal/",
     },
     {
       id: 6,
@@ -71,9 +71,9 @@ const Portfolio = () => {
                 >
                   Demo
                 </a>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
