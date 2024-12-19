@@ -16,20 +16,23 @@ import React from 'react'
             <p className=' py-6'>Submit the from to get in touch with me</p>
         </div>
 <div className=' flex justify-center items-center'>
-    <form action="" className=' flex flex-col w-full md:w-1/2
-    '>
+
+    <form action="https://getform.io/f/bnllwdwb" method='POST'  className=' flex flex-col w-full md:w-1/2'>
         <input type="text" name="name"
          placeholder="Enter your Name"
+         required
          className=' p-2 bg-transparent border-2 rounded-md
          text-white focus:outline-none' />
 
         <input type="email" name="email"
          placeholder="Enter your Email"
+         required
          className=' my-4 p-2 bg-transparent border-2 rounded-md
          text-white focus:outline-none' />
 
          <textarea name="message" rows="10" 
          placeholder="Enter your meassage"
+         required
          className=' p-2
         bg-transparent border-2 rounded-md text-white focus:outline-none '>
          </textarea>
