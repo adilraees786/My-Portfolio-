@@ -6,33 +6,38 @@ import budgetapp from '../assets/assets/portfolio/budgetapp.png';
 import onlinestore from '../assets/assets/portfolio/onlinestore.png';
 import randomwords from '../assets/assets/portfolio/randomwords.png';
 import trafficlights from '../assets/assets/portfolio/trafficlights.png';
-import passvalidation from '../assets/assets/portfolio/passvalidation.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: ecommerce,
+      demoLink: "https://e-commerce-blue-eight-15.vercel.app/",
     },
     {
       id: 2,
       src: todolist,
+      demoLink: "https://example.com/todolist",
     },
     {
       id: 3,
       src: onlinestore,
+      demoLink: "https://example.com/onlinestore",
     },
     {
       id: 4,
       src: randomwords,
+      demoLink: "https://example.com/randomwords",
     },
     {
       id: 5,
       src: budgetapp,
+      demoLink: "https://example.com/budgetapp",
     },
     {
       id: 6,
       src: trafficlights,
+      demoLink: "https://example.com/trafficlights",
     },
   ];
 
@@ -50,7 +55,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-8">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -58,9 +63,14 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-gray-700 rounded-lg"
+                >
                   Demo
-                </button>
+                </a>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
@@ -74,3 +84,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
