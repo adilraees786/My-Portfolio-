@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
  const SocialLinks = () => {
 
@@ -37,16 +38,16 @@ const links=[
     style: "rounded-tr-md"
 
   },
-  // {
-  //   id: 4,
-  //   child: (
-  //     <>
-  //       Mail <IoIosMail size={30} />
-  //     </>
-  //   ),
-  //   href: "mailto:adilraees911@gmail.com",
-  //   style: "rounded-tr-md",
-  // },
+  {
+    id: 4,
+    child: (
+      <>
+        Mail <SiGmail size={30} />
+      </>
+    ),
+    href: "mailto:adilraees911@gmail.com",
+    style: "rounded-tr-md",
+  },
   {
     id: 5,
     child:(
@@ -68,13 +69,13 @@ const links=[
   <li
     key={id}
     className={
-      'flex justify-between items-center w-40  h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 ' + " " +
+      'flex justify-between items-center w-40  h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500' + " " +
       style
     }
   >
     <a
       href={href}
-      className="flex justify-between items-center w-full text-white "
+      className="flex justify-between items-center w-full text-white"
     >
       {child}
     </a>
