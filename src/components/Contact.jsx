@@ -15,8 +15,9 @@ import React from 'react'
 
             <p className=' py-6'>Submit the from to get in touch with me</p>
         </div>
-<div>
-    <form action="">
+<div className=' flex justify-center items-center'>
+    <form action="" className=' flex flex-col w-full md:w-1/2
+    '>
         <input type="text" name="name"
          placeholder="Enter your Name"
          className=' p-2 bg-transparent border-2 rounded-md
@@ -24,10 +25,12 @@ import React from 'react'
 
         <input type="email" name="email"
          placeholder="Enter your Email"
-         className=' p-2 bg-transparent border-2 rounded-md
+         className=' my-4 p-2 bg-transparent border-2 rounded-md
          text-white focus:outline-none' />
 
-         <textarea name="message" rows="10" className=' p-2
+         <textarea name="message" rows="10" 
+         placeholder="Enter your meassage"
+         className=' p-2
         bg-transparent border-2 rounded-md text-white focus:outline-none '>
          </textarea>
 
