@@ -12,8 +12,8 @@ import React from 'react'
             <h1 className=' text-4xl font-bold inline border-b-4
             border-gray-500'>
                 Contact</h1>
-                
-            <p>Submit the from to get in touch with me</p>
+
+            <p className=' py-6'>Submit the from to get in touch with me</p>
         </div>
 <div>
     <form action="">
