@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: todolist,
-      demoLink: "https://example.com/todolist",
+      demoLink: "https://todo-list-using-react-js-omega.vercel.app/",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: randomwords,
-      demoLink: "https://example.com/randomwords",
+      demoLink: "https://adilraees786.github.io/Random-word-generate/"
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: trafficlights,
-      demoLink: "https://example.com/trafficlights",
+      demoLink: "https://traffic-lights-using-next-js.vercel.app/",
     },
   ];
 
