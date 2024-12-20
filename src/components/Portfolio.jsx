@@ -66,7 +66,7 @@ const Portfolio = () => {
                 <a
                   href={demoLink}
                   target="_blank"
-                  rel="noopener noreferrer"
+                 
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-gray-700 rounded-lg"
                 >
                   Demo
