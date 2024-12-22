@@ -20,7 +20,7 @@ const Home = () => {
             designing softwear.
            Currently, I love to work on web application
           using technologies like
-          React, Node js, Next js, React Native, Tailwind CSS, Html. </p>
+          React, Node js,  CSS, Next js, React Native, Tailwind CSS, Html. </p>
 
           <div>
             <Link 
