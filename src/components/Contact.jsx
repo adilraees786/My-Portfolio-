@@ -18,20 +18,20 @@ import React from 'react'
 <div className=' flex justify-center items-center'>
 
     <form action="https://getform.io/f/bnllwdwb" method='POST'  className=' flex flex-col w-full md:w-1/2'>
-        <input type="text" name="Name"
+        <input type="text" name="name"
          placeholder="Enter your Name"
          required
          className=' p-2 bg-transparent border-2 rounded-md
          text-white focus:outline-none' />
 
-        <input type="email" name="Email"
+        <input type="email" name="email"
          placeholder="Enter your Email"
          required
          className=' my-4 p-2 bg-transparent border-2 rounded-md
          text-white focus:outline-none' />
 
-         <textarea name="Message" rows="10" 
-         placeholder="Enter your meassage"
+         <textarea name="message" rows="10" 
+         placeholder="Enter your Meassage"
          required
          className=' p-2
         bg-transparent border-2 rounded-md text-white focus:outline-none '>
