@@ -12,8 +12,8 @@ const About = () => {
             About
           </h1>
         </div>
-        <p className=' text-xl mt-20'>I am a student at the University of FUUAST with a major in
-           Computer Science. As a skilled MERN Stack Developer with a solid foundation in React.js,
+        <p className=' text-xl mt-20'>I am a student at the University of FUUAST with a major in 
+           <span className=' text-blue-900'> Computer Science</span> . As a skilled MERN Stack Developer with a solid foundation in React.js,
             Next.js, React Native, Tailwind CSS  and Firebase, I specialize in crafting dynamic, responsive 
             Web and App Applications that solve real-world problems. With experience in full-stack
              development, I am passionate about delivering robust and scalable solutions.</p>
