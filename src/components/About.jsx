@@ -22,7 +22,7 @@ const About = () => {
         Alongside my technical skills, I am actively engaged in social media activism, where I
          blend my development expertise with community engagement to create impactful digital
           platforms. I am committed to continuous learning and currently advancing my skills
-           in  <span className=''> JavaScript</span> frameworks and modern web technologies.
+           in  JavaScript frameworks and modern web technologies.
         </p>
       </div>
     </div>

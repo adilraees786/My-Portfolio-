@@ -70,10 +70,9 @@ const Experience = () => {
         className="max-w-screen-lg mx-auto p-4 flex flex-col
       justify-center h-full w-full text-white"
       >
-        <div>
+        <div className='pb-8 mt-64'>
           <h1
-            className="text-4xl font-bold border-b-4 border-gray-500
-          p-2 inline"
+            className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline"
           >
             Experience
           </h1>

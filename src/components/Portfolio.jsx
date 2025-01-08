@@ -13,6 +13,7 @@ const Portfolio = () => {
       id: 1,
       src: ecommerce,
       demoLink: "https://e-commerce-blue-eight-15.vercel.app/",
+      codelink: "https://github.com/adilraees786/e-Commerce"
     },
     {
       id: 2,
@@ -55,7 +56,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-8">
-          {portfolios.map(({ id, src, demoLink }) => (
+          {portfolios.map(({ id, src, demoLink, codelink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -67,14 +68,16 @@ const Portfolio = () => {
                   href={demoLink}
                   target="_blank"
                  
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-gray-700 rounded-lg"
-                >
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center ">
                   Demo
                 </a>
-                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={codelink}
+                  target="_blank"
+                 
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center ">
                   Code
-                  
-                </button> */}
+                </a>
               </div>
             </div>
           ))}
