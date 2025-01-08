@@ -44,6 +44,7 @@ const Portfolio = () => {
       id: 6,
       src: trafficlights,
       demoLink: "https://traffic-lights-using-next-js.vercel.app/",
+      codelink: "https://github.com/adilraees786/Traffic-lights-using-Next-js"
     },
   ];
 
