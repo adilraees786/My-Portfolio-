@@ -15,7 +15,7 @@ const About = () => {
           <span className=' text-blue-900 font-extrabold' > Computer Science</span> . As a skilled
            MERN Stack Developer with a solid foundation in React.js,
           Next.Js, React Native, Tailwind CSS, Firebase and Node Js. I specialize in crafting dynamic, responsive
-          Web and App Applications that solve real-world problems. With experience in full-stack
+          Web and App Applications that solve real-world problems. With experience in Mern-Stack
           development, I am passionate about delivering robust and scalable solutions.
         </p>
         <br />
