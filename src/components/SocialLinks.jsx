@@ -34,7 +34,7 @@ const SocialLinks = () => {
           Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://www.instagram.com/adii_hehe?igsh=MTFpYnNoaGV0enB5cg==",
+      href: "https://www.instagram.com/adil_raees7?igsh=MTFpYnNoaGV0enB5cg==",
       style: "rounded-tr-md"
 
     },
