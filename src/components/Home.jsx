@@ -2,7 +2,6 @@ import React from 'react'
 import myimg from "../assets/assets/myimg.jpg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
-// import myphoto from '../assets/assets/myphoto.jpg'
 
 
 
